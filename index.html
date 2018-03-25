@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="pt-br">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>     
+<body id="formulario">
+<div id="interface">
+	<nav id="menu">
+		<ul type="disc">
+			<li><a href="index.html">Página Inicial</a></li>
+			<li><a href="arvore.html">Árvore DOM</a></li>
+			<li><a href="Questionario.html">Questionário</a></li>
+		</ul>	
+	</nav>
+	<header id="cabecalho">
+		<hgroup>
+		<h1>Formulário do Usuário</h1>
+		<hr>
+		</hgroup>
+	<hgroup id="sub">	
+		<h2>Formulário</h2>
+		<h3>Feito por Deivid C. Lemes</h3>
+		<h5>Atualizado em 18/03/2018 às 19:20 pm</h5>
+	</hgroup>
+	</header>
+	<br>
+	<form method="post" id="fContato" action=""/>
+	<fieldset id="usuario"><legend id="dados">Dados Pessoais</legend>
+	<p><label for="aNome" required>Nome: </label><input type="text" name="bNome" id="aNome" size="20" maxlength="10"></p>
+	<p><label for="aSobrenome" required>Sobrenome: </label><input type="text" name="bSobrenome" id="aSobrenome"></p>
+	<p><label for="aNasc" required>Nascimento: </label><input type="date" name="bNasc" id="aNasc"></p>
+	<p><label for="aId" required>Identidade: </label><input type="number" name="bId" id="aId" min="0" max="99999/"></p>
+	<p><label for="aCpf" required>CPF: </label><input type="number" name="bCpf" id="aCpf" min="0" max="99999"></p>
+<fieldset id="sexo" required><legend>Sexo</legend>
+	<input type="radio" name="bsexo" id="aFem"><label for="aFem">Feminino</label><br>
+	<input type="radio" name="bsexo" id="aMas"><label for="aMas">Masculino</label></fieldset>
+
+	<p><label for="aEstc" required>Estado Civil: </label><select type="Civil" name="bEstc" id="aEstc"></p>
+		<option>Solteiro</option>
+		<option>Casado</option>
+		<option>Viuvo</option>
+		<option>Divorciado</option>
+		<option>Separado</option>
+	</select>
+	<p><label for="aTel" required>Telefone: </label><input type="tel" name="bTel" id="aTel" size="15" maxlength="10" placeholder="(xx)xxxxx-xxxx"></p>
+	<p><label for="aCel" required>Celular: </label><input type="tel" name="bCel" id="aCel" size="15" maxlength="10" placeholder="(xx)xxxx-xxxx"></p>
+	<p><label for="aEmail" required>Email: </label><input type="email" name="bEmail" id="aEmail" size="25" maxlength="40" placeholder="nome@exemplo.com"></p>
+<fieldset id="endereco" required><legend>Endereço</legend>
+	<label for="aLog" required>Logradouro: </label><input type="log" name="bLog" id="aLog">
+	<label for="aNum" required>N°: </label><input type="Number" name="bNum" id="aNum" min="0" max="99999">
+	<p><label for="aComp" required>Complemento: </label><input type="text" name="bComp" id="aComp"></p>
+	<label for="aCit" required>Cidade: </label><input type="Cit" name="bCit" id="aCit">
+	<p><label for="aEnd" required>Estado: </label><select type="text" name="bEnd" id="aEnd"></p>
+		<option>MG</option>
+		<option>SP</option>
+		<option>RJ</option>
+		<option>TO</option>
+		<option>BA</option>
+		<option>DF</option>
+	</select>
+	</fieldset>
+</fieldset>
+<hr>
+<footer id="rodape">
+	<p>Created by <i>Deivid César</i><br><a class="link" href="https://www.facebook.com/deivid.cesar.100">Facebook </a><a class="link" href="https://github.com/Deividcl">| Github</a></p>
+</footer>
+</div>  
+</body>
+</html>
