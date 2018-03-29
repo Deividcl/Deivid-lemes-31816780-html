@@ -175,7 +175,7 @@ nav#resp li {
 	position: absolute;
 	padding: 8px;
 	margin: 5px;
-	margin-top: 1100px;
+	margin-top: 1370px;
 	margin-left: 600px;
 	border: 1px solid white;
 	box-shadow: 1px 1px 4px black;
@@ -201,3 +201,21 @@ th.quest {
 	background-color: #9390a7;
 	color: white;
 } 
+
+nav.abertas {
+	margin-left: 20px;
+	font-size: 15pt;
+	
+}
+
+img {
+	margin:auto;
+	box-sizing: border-box;
+	padding: 0px;
+	margin-top: -25px;
+
+
+}
+/* questionario */
+
+
