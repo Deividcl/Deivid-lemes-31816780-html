@@ -72,7 +72,7 @@ legend#dados {
 }
 
 body {
-	background-image: url("_imagens/background-circles.png");
+	background-image: url("background-circles.png");
 }
 
 div#interface {
@@ -84,10 +84,10 @@ div#interface {
 }
 
 fieldset#endereco {
-	background: url("_imagens/MCMV_Urbano.png") no-repeat 100% 10%;
+	background: url("MCMV_Urbano.png") no-repeat 100% 10%;
 }
 fieldset#usuario {
-	background: url("_imagens/Usuário-HM.png") no-repeat 100% -5%;
+	background: url("Usuário-HM.png") no-repeat 100% -5%;
 	border: none;
 }
 
